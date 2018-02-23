@@ -9,7 +9,6 @@
 
 /* Texto Titulo Header */
 
-
 .has-header-image.twentyseventeen-front-page .custom-header {
 	/*display: table;*/
 	/*height: 300px;*/
@@ -20,10 +19,9 @@
 }
 
 
-
 .site-title, .site-title a {
 color: #212121 !important;
-text-transform: capitalize;
+text-transform: none;
 letter-spacing: -2px;
 font-size: 55px !important;
 }
@@ -38,9 +36,6 @@ letter-spacing: -2px !important
 #content {
 padding-top: 35px;
 }
-
-
-
 
 /*** 2nd — increase  left side content section width ***/
 
