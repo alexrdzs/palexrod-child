@@ -1,0 +1,43 @@
+ /*
+ Theme Name: PalexRod Inc.
+ Description: The custom theme PalexRod13 using the parent theme Twenty Seventeen.
+ Author: Alex Rodríguez Santibáñez
+ Author URI: www.alexrds.com
+ Template: twentyseventeen
+ Version: 1.0
+ */
+
+/* Texto Titulo Header */
+.site-title{
+    font-size: 5em;
+    letter-spacing: -5px;
+    font-weight: 200;
+    text-transform: capitalize !important
+}
+
+
+/* Ancho de Contenido */
+
+.has-sidebar #secondary {
+width: 26% !important;
+}
+
+/* Color de Footer */
+#colophon {
+background: #F5F5F5;
+}
+
+/* Titulos de Widget*/
+.widget-title {
+text-align: center;
+padding: 5% !important;
+margin-bottom: 5px !important;
+}
+
+
+/* Boton grid posts */ 
+.pt-cv-readmore {
+    color:#ECEFF1 !important;
+    background-color: #B0BEC5 !important;
+    border: none !important;
+}
