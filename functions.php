@@ -1,14 +1,25 @@
 <?php
-function mychildtheme_enqueue_styles() {
-   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+/**
+ * Astra - Palexrod Theme functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package Astra - Palexrod
+ * @since 1.0.0
+ */
+
+/**
+ * Define Constants
+ */
+define( 'CHILD_THEME_ASTRA_PALEXROD_VERSION', '1.0.0' );
+
+/**
+ * Enqueue styles
+ */
+function child_enqueue_styles() {
+
+	wp_enqueue_style( 'astra-palexrod-theme-css', get_stylesheet_directory_uri() . '/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_PALEXROD_VERSION, 'all' );
+
 }
-add_action( 'wp_enqueue_scripts', 'mychildtheme_enqueue_styles' ); 
 
-
-/*function wpb_add_google_fonts() {
-wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Crete+Round|Raleway', false ); 
-}
- 
-add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );*/
-
-?>
+add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );

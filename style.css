@@ -1,37 +1,11 @@
- /*
- Theme Name: PalexRod Inc.
- Description: The custom theme PalexRod13 using the parent theme Twenty Seventeen.
- Author: Alex Rodríguez Santibáñez
- Author URI: www.alexrds.com
- Template: twentyseventeen
- Version: 1.0
- */
-
-/* Texto Titulo Header */
-
-.site-title, .site-title a {
-color: #212121 !important;
-text-transform: none;
-letter-spacing: -2px;
-font-size: 55px !important;
-}
-
-.entry-title{
-color: #212121 !important;
-text-transform: capitalize !important;
-font-size: 3em !important;
-letter-spacing: -2px !important 
-}
-
-#content {
-padding-top: 35px;
-}
-
-.entry-meta {
-display: none !important;
-}
-
-/* Color de Footer */
-#colophon {
-background: #F5F5F5;
-}
+/**
+Theme Name: Astra - Palexrod
+Author: Alex Rodríguez Santibáñez
+Author URI: http://www.alexrds.com
+Description: The custom theme PalexRod is using for the parent theme Astra.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-palexrod
+Template: astra
+*/
